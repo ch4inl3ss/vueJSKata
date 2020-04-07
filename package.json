@@ -1,14 +1,50 @@
 {
   "name": "vue-20-hello-world",
   "version": "1.0.0",
+  "private": true,
   "description": "The easiest way to try out Vue.js, edit this Hello World example",
-  "main": "index.html",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "start": "serve"
   },
+  "main": "index.html",
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "serve": "^11.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "vue-20-hello-world@1.0.0",
   "keywords": [],
   "license": "MIT",
-  "devDependencies": {
-    "serve": "^11.2.0"
-  }
+  "readme": "ERROR: No README data found!"
 }
