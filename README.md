@@ -1,2 +1,0 @@
-# vueJSKata
-Created with CodeSandbox
